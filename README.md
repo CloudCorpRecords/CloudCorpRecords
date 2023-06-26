@@ -10,7 +10,7 @@
 
 💞️ I’m open to collaborate on various projects, particularly those centered around AI/ML, cloud-based solutions, and innovative application construction.
 
-📫 How to reach me: cloudcorpbeats.com || cloudtheboy@gmail.com || cloudcorpbeats@gmail.com
+📫 How to reach me:|| cloudtheboy@gmail.com || cloudcorpbeats@gmail.com
 
 ---
 
