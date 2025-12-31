@@ -10,7 +10,8 @@
 
 💞️ I’m open to collaborate on various projects, particularly those centered around AI/ML, cloud-based solutions, and innovative application construction.
 
-📫 How to reach me:|| admin@reneturcios.com
+📫 How to reach me:|| cloud@agentcies.co
+
 
 ---
 
