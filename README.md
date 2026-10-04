@@ -1,1 +1,26 @@
-IyDwn5GNIEhpLCBJJ20gUmVuZSBUdXJjaW9zCgpTdGFuZm9yZC1iYXNlZCBJLW5hdGl2ZSBidWlsZGVyIGFuZCBmb3VuZGVyOiBzaGlwIHJlYWwgcHJvZHVjdHMgd2l0aCBBSSBjb2RpbmcgdG9vbHMsIHRoZW4gdGVhY2ggb3RoZXIgcGVvcGxlIHRvIGRvIHRoZSBzYW1lIC0tIDIwMCsgaGFja2F0aG9ucywgaGFuZHMtb24gd29ya3Nob3BzIGFjcm9zcyB0aGUgQmF5IEFyZWEsIGFuZCBtZW50b3Jpbmcgbm9uLXRlY2huaWNhbCBmb3VuZGVycy4gUHJvZmlsZWQgaW4gdGhlIFNhbiBGcmFuY2lzY28gU3RhbmRhcmQgKEp1bHkgMjAyNSkuCgojIyBGZWF0dXJlZCBidWlsZHMKCi0gKipDbGlwd2lzZSoqIOKAkyBNQ1AtZmlyc3QgQUkgdmlkZW8gY2xpcHBpbmc6IGFnZW50cyBzdWJtaXQgbG9uZyB2aWRlb3MgdmlhIE1DUCwgb3VyIHNlcnZlciBlZGl0cyBhbmQgcmV0dXJucyB2aXJhbCBjbGlwcy4gTGl2ZTogW2NsaXB3aXNlLnJlcGxpdC5hcHBdKGh0dHBzOi8vY2xpcHdpc2UucmVwbGl0LmFwcCkKLSAqKlRhc2tDYXRvKiog4oCTIGFnZW50IHdvcmtmbG93cyBmb3IgZXZlcnlkYXkgdXNlcnMKLSDQlCpTdWRvSGlyZWQqKiDigJMgw7hwZW4tc291cmNlIEFJIHNhbGVzIGRldmVsb3BtZW50IHJlcAotICoqQWdlbnRjaWVzKiog4oCTIG11bHRpLWFnZW50IGNvb3JkaW5hdGlvbiBpbmZyYXN0cnVjdHVyZQoKIyMgV2hhdCBJIGRvCgotIPCfmKAgIEJ1aWxkIOKAkyBmdWxsLXN0YWNrIFR5cGVTY3JpcHQvUHl0aG9uIGFwcHMsIE1DUCBzZXJ2ZXJzLCBBSSBhZ2VudCBzeXN0ZW1zCi0g8J+NrCBUZWFjaCDigJMgUnVuIGhhbmRzLW9uIHdvcmtzaG9wcyBvbiBidWlsZGluZyB3aXRoIFJlcGxpdCwgQ3Vyc29yLCBDbGF1ZGU7IEFJIGNvdXJzZSBjcmVhdG9yCi0g8J+klSBNZW50b3Ig4oCTIGhlbHAgbm9uLXRlY2huaWNhbCBidWlsZGVycyBzaGlwIHdpdGggQUkKCiMjIFN0YWNrCgBgVHJ1ZVR5cGVTY3JpcHRgIGBQeXRob25gIGBSZXBsaXRgIGBtcHBgIGBDbGF1ZGVgIGBPcGVuQUlgIGBOb2RlLmpzYCBgUmVhY3RgCgojIyBGaW5kIG1lCgotIOKJoCBQb3J0Zm9saW86IFtyZW5ldHVyY2lvcy5yZXBsaXQuYXBwXShodHRwczovL3JlbmV0dXJjaW9zLnJlcGxpdC5hcHApCi0g8J+SpSBMaW5rZWRJbjogW2xpbmtlZGluLmNvbS9pbi9yZW5ldHVyY2lvc10oaHR0cHM6Ly9saW5rZWRpbi5jb20vaW4vcmVuZXR1cmNpb3MpCi0g8J+MtSBTYW4gRnJhbmNpc2NvLCBDQSDigJQgb3BlbiB0byBEZXZSZWwgLyBGb3J3YXJkIERlcGxveWVkIC8gQXBwbGllZCBJIHJvbGVzCg==
+# 👋 Hi, I'm Rene Turcios
+
+San Francisco-based AI-native builder and founder. I ship real products with AI coding tools, then teach other people to do the same — 200+ hackathons, hands-on workshops across the Bay Area, and mentoring non-technical founders. Profiled in the *San Francisco Standard* (July 2025).
+
+## Featured builds
+
+- **Cliqwise** — MCP-first AI video clipping: agents submit long videos via MCP, the server edits and returns viral clips. Live: [clipwise.replit.app](https://clipwise.replit.app)
+- **TaskCato** — agent workflows for everyday users
+- **SudoHired** — open-source AI sales development rep
+- **Agentcies** — multi-agent coordination infrastructure
+
+## What I do
+
+- 🏗️ **Build** — full-stack TypeScript/Python apps, MCP servers, AI agent systems
+- 🎓 **Teach** — hands-on workshops on building with Replit, Cursor, and Claude; AI course creator
+- 🤝 **Mentor** — help non-technical builders ship with AI
+
+## Stack
+
+`TypeScript` `Python` `Replit` `MCP` `Claude` `OpenAI` `Node.js` `React`
+
+## Find me
+
+- 🌐 Portfolio: [reneturcios.replit.app](https://reneturcios.replit.app)
+- 💼 LinkedIn: [linkedin.com/in/reneturcios](https://linkedin.com/in/reneturcios)
+- 📍 San Francisco, CA — open to DevRel / Forward Deployed / Applied AI roles
