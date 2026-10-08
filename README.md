@@ -7,10 +7,8 @@ San Francisco-based AI-native builder and founder. I ship real products with AI 
 ## Featured builds
 
 
-- **Cliqwise** — MCP-first AI video clipping: agents submit long videos via MCP, the server edits and returns viral clips. Live: [clipwise.replit.app](https://clipwise.replit.app)
-- **TaskCato** — agent workflows for everyday users
-- **SudoHired** — open-source AI sales development rep
-- **Agentcies** — multi-agent coordination infrastructure
+- **[Cliqwise](https://github.com/CloudCorpRecords/cliqwise)** — MCP-first AI video clipping: agents submit long videos via MCP, the server edits and returns viral clips. Live: [clipwise.replit.app](https://clipwise.replit.app)
+- **[SudoHired](https://github.com/CloudCorpRecords/sudohired)** — open-source AI sales development rep
 
 
 ## Latest builds
