@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Rene Turcios
 
 
-AI product builder and founder of **Clipwise** and **Xod**, based in San Francisco. I ship full-stack products solo with AI coding tools (React frontends, Python backends, MCP servers, agent pipelines), then teach other people to do the same: 200+ hackathons, hands-on workshops across the Bay Area, and mentoring non-technical founders.
+AI product builder and founder of **Clipwise** and **Xod**, based in San Francisco. Replit Ambassador since January 2026. I ship full-stack products solo with AI coding tools (React frontends, Python backends, MCP servers, agent pipelines), then teach other people to do the same: 200+ hackathons, hands-on workshops across the Bay Area, and mentoring non-technical founders.
 
 
 ## ⭐ Flagship projects
@@ -37,6 +37,14 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 </tr>
 </table>
 
+### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
+
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from a day of vetting real issues by hand. 40 tests, CI green on Node 20 and 24.
+
+[**Release v0.1.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.1.0)
+
+`TypeScript` `MCP` `CLI` `GitHub API`
+
 
 ## 🤝 Join in
 
@@ -58,12 +66,15 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **[agent-evals](https://github.com/CloudCorpRecords/agent-evals)** — open eval harness + leaderboard: point it at any AI agent, get scored on tool-use, accuracy, and latency
 - **[mcp-job-tracker](https://github.com/CloudCorpRecords/mcp-job-tracker)** — MCP server over a job-application tracker: ask Claude about your pipeline, find stale leads, check reply status
 - **[resume-sync](https://github.com/CloudCorpRecords/resume-sync)** — CLI that regenerates your resume's Projects section from GitHub pinned repos, as Markdown or DOCX
+- **[AI-Course-Creator](https://github.com/CloudCorpRecords/AI-Course-Creator)** — a complete course on building software with AI, the same material I teach in workshops
+- **[system-monitor](https://github.com/CloudCorpRecords/system-monitor)** — macOS system monitor with a built-in agentic AI assistant (Ollama), live CPU, memory, disk, network and battery views
 
 
 ## Open source contributions
 
 - **IBM ContextForge** — [#181](https://github.com/contextforge-org/contextforge-web-ui/pull/181) (merged): moved prompt/resource argument forms onto the shared accessible `Field` component, with the tests and i18n cleanup that go with it
 - **Sage** — [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
+- **pdfcn (shadcn-labs)** — three registry blocks in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94)
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
