@@ -60,6 +60,10 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **[resume-sync](https://github.com/CloudCorpRecords/resume-sync)** — CLI that regenerates your resume's Projects section from GitHub pinned repos, as Markdown or DOCX
 
 
+## Open source contributions
+
+- **IBM ContextForge** — [#181](https://github.com/contextforge-org/contextforge-web-ui/pull/181) (merged): moved prompt/resource argument forms onto the shared accessible `Field` component, with the tests and i18n cleanup that go with it
+
 ## What I do
 
 
