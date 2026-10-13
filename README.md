@@ -63,6 +63,8 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 ## Open source contributions
 
 - **IBM ContextForge** — [#181](https://github.com/contextforge-org/contextforge-web-ui/pull/181) (merged): moved prompt/resource argument forms onto the shared accessible `Field` component, with the tests and i18n cleanup that go with it
+- **Sage** — [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
+- Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
 
