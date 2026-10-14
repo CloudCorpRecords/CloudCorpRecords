@@ -45,6 +45,13 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
+Greenlight is one of four tools I built out of a single day of real open-source contribution work, one per stage of the lifecycle:
+
+- **[prwatch](https://github.com/CloudCorpRecords/prwatch)**: after you submit. Ranks your open PRs by what needs attention (changes requested, unresolved threads, real failing checks, conflicts, reviewer silence), with external blockers like Vercel authorization classified separately
+- **[claimcheck](https://github.com/CloudCorpRecords/claimcheck)**: while you work. Finds stale issue claims aging with no PR, and parked fixes: finished work on fork branches that never became a PR
+- **[gatefile](https://github.com/CloudCorpRecords/gatefile)**: for maintainers. Extracts a repo's hidden contribution gates from its docs into a machine-readable contribution-gates.json, with a drift validator for CI
+
+
 
 ## 🤝 Join in
 
