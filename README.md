@@ -39,11 +39,9 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from a day of vetting real issues by hand. 40 tests, CI green on Node 20 and 24.
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 106 tests, CI green on Node 20 and 24.
 
-[**Release v0.2.1**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.2.1)
-
-v0.2 added the automation layer: `claim`, `prep` and `pr` commands (plus MCP tools) that run the pipeline after the verdict, with dry-run-by-default writes, gate-aware claim comments, DCO verification before opening a PR, and branch names learned from the repo's own PR history. v0.2.1 fixed a gate-classification bug found by using it live (claim-first is a soft gate, not an assignment gate) and added a scan fallback for repos without labeled starter issues.
+[**Release v0.1.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.1.0)
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -83,7 +81,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 
 - **IBM ContextForge** — [#181](https://github.com/contextforge-org/contextforge-web-ui/pull/181) (merged): moved prompt/resource argument forms onto the shared accessible `Field` component, with the tests and i18n cleanup that go with it
 - **Sage** — [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
-- **pdfcn (shadcn-labs)** — five registry blocks in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94), [Project Proposal](https://github.com/shadcn-labs/pdfcn/pull/95), [Quarterly Report](https://github.com/shadcn-labs/pdfcn/pull/96)
+- **pdfcn (shadcn-labs)** — three registry blocks in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94)
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
