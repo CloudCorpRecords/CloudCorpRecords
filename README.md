@@ -39,9 +39,11 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 106 tests, CI green on Node 20 and 24.
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 163 tests, CI green on Node 20 and 24.
 
-[**Release v0.1.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.1.0)
+[**Release v0.3.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.3.0)
+
+Since v0.2 it also runs the pipeline after the verdict: `claim`, `prep` and `pr` commands (plus MCP tools) with dry-run-by-default writes, gate-aware claim comments, repo conventions learned into a prep checklist, and DCO verification before a PR opens. v0.3 added house-rules gates from AGENTS.md files and detection for issues that already shipped in part.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -81,7 +83,9 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 
 - **IBM ContextForge** — [#181](https://github.com/contextforge-org/contextforge-web-ui/pull/181) (merged): moved prompt/resource argument forms onto the shared accessible `Field` component, with the tests and i18n cleanup that go with it
 - **Sage** — [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
-- **pdfcn (shadcn-labs)** — three registry blocks in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94)
+- **pdfcn (shadcn-labs)** — six registry blocks and components in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94), [Project Proposal](https://github.com/shadcn-labs/pdfcn/pull/95), [Quarterly Report](https://github.com/shadcn-labs/pdfcn/pull/96), [Addresses](https://github.com/shadcn-labs/pdfcn/pull/97)
+- **Reticle** — [#1620](https://github.com/reticlehq/reticle/pull/1620) (in review): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
+- **Squidbrake** — [#91](https://github.com/batrapulkit/squidbrake/pull/91) (in review): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
