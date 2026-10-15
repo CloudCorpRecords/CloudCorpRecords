@@ -39,7 +39,7 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 163 tests, CI green on Node 20 and 24.
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 167 tests, CI green on Node 20 and 24.
 
 [**Release v0.3.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.3.0)
 
@@ -85,9 +85,10 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Sage** — [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
 - **pdfcn (shadcn-labs)** — six registry blocks and components in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94), [Project Proposal](https://github.com/shadcn-labs/pdfcn/pull/95), [Quarterly Report](https://github.com/shadcn-labs/pdfcn/pull/96), [Addresses](https://github.com/shadcn-labs/pdfcn/pull/97)
 - **Reticle** — [#1620](https://github.com/reticlehq/reticle/pull/1620) (in review): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
-- **Reticle** — [#1633](https://github.com/reticlehq/reticle/pull/1633), [#1634](https://github.com/reticlehq/reticle/pull/1634), [#1635](https://github.com/reticlehq/reticle/pull/1635) (in review): upload through hidden dropzone inputs, a pre-writable selector in the split-text hint, and geometry assertions (fully in viewport, overlap, clipped text) for element predicates
+- **Reticle** — [#1633](https://github.com/reticlehq/reticle/pull/1633), [#1634](https://github.com/reticlehq/reticle/pull/1634), [#1635](https://github.com/reticlehq/reticle/pull/1635) (in review): upload through hidden dropzone inputs, a pre-writable selector in the split-text hint, and geometry assertions (fully in viewport, overlap, clipped text) for element predicates; [#1636](https://github.com/reticlehq/reticle/pull/1636) makes a failed browser launch name the exact Chromium path it checked
 - **Firecrawl** — [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
 - **Firecrawl** — [#5164](https://github.com/firecrawl/firecrawl/pull/5164) (in review): made the crawler's JS link-filter fallback enforce the same host scoping as the native filter, so crawls cannot silently wander off-site when the native filter fails
+- **FastMCP** — [#5757](https://github.com/PrefectHQ/fastmcp/pull/5757) (in review): wired the per-server `timeout` in MCP client configs into the session read timeout, so a config that looks capped no longer runs unlimited
 - **Squidbrake** — [#91](https://github.com/batrapulkit/squidbrake/pull/91) (merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
