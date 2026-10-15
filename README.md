@@ -39,9 +39,9 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 167 tests, CI green on Node 20 and 24.
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 170 tests, CI green on Node 20 and 24.
 
-[**Release v0.3.1**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.3.1)
+[**Release v0.3.2**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.3.2)
 
 Since v0.2 it also runs the pipeline after the verdict: `claim`, `prep` and `pr` commands (plus MCP tools) with dry-run-by-default writes, gate-aware claim comments, repo conventions learned into a prep checklist, and DCO verification before a PR opens. v0.3 added house-rules gates from AGENTS.md files and detection for issues that already shipped in part.
 
