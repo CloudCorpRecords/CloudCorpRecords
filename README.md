@@ -86,7 +86,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **pdfcn (shadcn-labs)** — six registry blocks and components in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94), [Project Proposal](https://github.com/shadcn-labs/pdfcn/pull/95), [Quarterly Report](https://github.com/shadcn-labs/pdfcn/pull/96), [Addresses](https://github.com/shadcn-labs/pdfcn/pull/97)
 - **Reticle** — [#1620](https://github.com/reticlehq/reticle/pull/1620) (in review): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
 - **Firecrawl** — [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
-- **Squidbrake** — [#91](https://github.com/batrapulkit/squidbrake/pull/91) (in review): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
+- **Squidbrake** — [#91](https://github.com/batrapulkit/squidbrake/pull/91) (merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
