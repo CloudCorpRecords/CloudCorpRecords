@@ -39,13 +39,17 @@ AI product builder and founder of **Clipwise** and **Xod**, based in San Francis
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. Ships as a CLI and an MCP server, born from vetting real issues by hand, then automated end to end. 170 tests, CI green on Node 20 and 24.
+**Pre-flight checks for open-source contributions.** Point it at any GitHub issue and it tells you if the issue is actually landable: verdicts (GO / RISKY / TAKEN / GATED / STALE), repo friction scores, and scan mode that ranks a repo's good first issues. It checks the things that waste evenings: hidden claims in comments, competing PRs hiding in the timeline, assignment gates, paused-PR policies, and CLA traps. Ships as a CLI and an MCP server with 15 tools, born from vetting real issues by hand, then automated end to end. 598 tests, CI green on Node 20 and 24.
 
-[**Release v0.3.2**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.3.2)
+[**Release v0.8.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.8.0)
 
-**Install:** `npx @reneturcios/greenlight check <issue-url>`. All four toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck and gatefile.
+**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). All four toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck and gatefile.
 
-Since v0.2 it also runs the pipeline after the verdict: `claim`, `prep` and `pr` commands (plus MCP tools) with dry-run-by-default writes, gate-aware claim comments, repo conventions learned into a prep checklist, and DCO verification before a PR opens. v0.3 added house-rules gates from AGENTS.md files and detection for issues that already shipped in part.
+It also runs the pipeline after the verdict: claim comments with repo conventions baked in, CI failure triage (yours vs pre-existing), review-response triage (real findings vs bot noise, drafts only), a maintainer guard Action with opt-in Autopilot labels, repo digests that arbitrate duplicate-PR races, a PR babysitter that watches your open PRs, honest base-vs-head test verification, and evidence packs that cite every claim they make.
+
+Newest: the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/), which ranks 43 real repos by how hard they are to land a PR in.
+
+Greenlight runs my own contribution campaign: 49 PRs opened in real open-source repos so far, 12 merged, every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
