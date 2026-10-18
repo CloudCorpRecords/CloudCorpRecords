@@ -49,7 +49,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/), which ranks 43 real repos by how hard they are to land a PR in. v0.9.1 is the trust patch: `greenlight proxy` ships the rate-limit fix in the box, the babysitter runs in parallel and only pages you for your own PRs, and `claim --import` backfills the claims registry from the ledger.
 
-Greenlight runs my own contribution campaign: 67 PRs authored in real open-source repos so far, 15 merged, every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 72 PRs authored in real open-source repos so far, 16 merged, every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -58,6 +58,8 @@ Greenlight is one of four tools I built out of a single day of real open-source 
 - **[prwatch](https://github.com/CloudCorpRecords/prwatch)**: after you submit. Ranks your open PRs by what needs attention (changes requested, unresolved threads, real failing checks, conflicts, reviewer silence), with external blockers like Vercel authorization classified separately
 - **[claimcheck](https://github.com/CloudCorpRecords/claimcheck)**: while you work. Finds stale issue claims aging with no PR, and parked fixes: finished work on fork branches that never became a PR
 - **[gatefile](https://github.com/CloudCorpRecords/gatefile)**: for maintainers. Extracts a repo's hidden contribution gates from its docs into a machine-readable contribution-gates.json, with a drift validator for CI
+
+Adjacent to the toolkit: **[pkgverdict](https://github.com/CloudCorpRecords/pkgverdict)** — pre-install verdicts for npm packages (GO / RISKY / FAKE / MISSING), built for humans and AI agents.
 
 
 
