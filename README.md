@@ -22,6 +22,10 @@ Before interviews and take-homes, I build the thing: independent prototypes agai
 More pre-built work is held privately for take-home stages.
 
 
+## 📊 My job search, live
+
+I track every application and every open-source PR in public. The **[Job Search Tracker](https://cloudcorprecords.github.io/job-search-tracker/)** streams straight from my tracking sheets, with searchable tables, status breakdowns and daily activity. ([source](https://github.com/CloudCorpRecords/job-search-tracker))
+
 ## ⭐ Flagship projects
 
 <table>
