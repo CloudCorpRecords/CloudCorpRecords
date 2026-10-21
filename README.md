@@ -21,6 +21,12 @@ Before interviews and take-homes, I build the thing: independent prototypes agai
 
 More pre-built work is held privately for take-home stages.
 
+### Live interview demos
+
+Solutions built live during technical interviews, AI-assisted with the use disclosed, then cleaned up and test-verified.
+
+- [password-validation](https://github.com/CloudCorpRecords/password-validation) - HackerRank live interview, TypeScript: flags passwords as weak or strong (common words, digits only, single case, length), with tests
+
 
 ## 📊 My job search, live
 
