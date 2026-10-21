@@ -25,7 +25,7 @@ More pre-built work is held privately for take-home stages.
 
 Solutions built live during technical interviews, AI-assisted with the use disclosed, then cleaned up and test-verified.
 
-- [password-validation](https://github.com/CloudCorpRecords/password-validation) - HackerRank live interview, TypeScript: flags passwords as weak or strong (common words, digits only, single case, length), with tests
+- [password-validation](https://github.com/CloudCorpRecords/password-validation) - HackerRank live interview problem, solved in TypeScript, Python, C++, Go, Java, Rust and Ruby: per-language unit tests, 8 shared golden cases, CI-recorded video proof
 
 
 ## 📊 My job search, live
