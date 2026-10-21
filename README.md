@@ -71,7 +71,7 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 [**Release v0.21.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.21.0)
 
-**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.21.0 mcp`. All four toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck and gatefile.
+**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.21.0 mcp`. The toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck, gatefile, shipcheck, cidiff and reprocheck.
 
 It also runs the pipeline after the verdict: claim comments with repo conventions baked in, CI pre-flight that runs a repo's checks locally before you push, CI failure triage (yours vs pre-existing), review-response triage (real findings vs bot noise, drafts only), a maintainer guard Action with opt-in Autopilot labels, repo digests that arbitrate duplicate-PR races, a PR babysitter that watches your open PRs, honest base-vs-head test verification, and evidence packs that cite every claim they make.
 
@@ -86,6 +86,12 @@ Greenlight is one of four tools I built out of a single day of real open-source 
 - **[prwatch](https://github.com/CloudCorpRecords/prwatch)**: after you submit. Ranks your open PRs by what needs attention (changes requested, unresolved threads, real failing checks, conflicts, reviewer silence), with external blockers like Vercel authorization classified separately
 - **[claimcheck](https://github.com/CloudCorpRecords/claimcheck)**: while you work. Finds stale issue claims aging with no PR, and parked fixes: finished work on fork branches that never became a PR
 - **[gatefile](https://github.com/CloudCorpRecords/gatefile)**: for maintainers. Extracts a repo's hidden contribution gates from its docs into a machine-readable contribution-gates.json, with a drift validator for CI
+
+Three more tools joined the family in October 2026, each an npm package and MCP server too:
+
+- **[shipcheck](https://github.com/CloudCorpRecords/shipcheck)**: release verification. Git tag, GitHub release, npm, MCP Registry and GHCR must all agree on the same version, or it is a NO-GO
+- **[cidiff](https://github.com/CloudCorpRecords/cidiff)**: base-vs-head CI differ for PRs. Sorts failing checks into introduced by you, pre-existing, external, or fixed by you
+- **[reprocheck](https://github.com/CloudCorpRecords/reprocheck)**: red-first repro verifier. A fix only counts when the repro fails on the base code and passes on the fix
 
 Adjacent to the toolkit: **[pkgverdict](https://github.com/CloudCorpRecords/pkgverdict)** — pre-install verdicts for npm packages (GO / RISKY / FAKE / MISSING), built for humans and AI agents.
 
