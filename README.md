@@ -71,7 +71,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 97 PRs authored across open-source repos so far, 33 merged (Pull Shark Bronze), every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 98 PRs authored across open-source repos so far, 33 merged (Pull Shark Bronze), every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -121,6 +121,13 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Firecrawl**: [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
 - **Firecrawl**: [#5164](https://github.com/firecrawl/firecrawl/pull/5164) (in review): made the crawler's JS link-filter fallback enforce the same host scoping as the native filter, so crawls cannot silently wander off-site when the native filter fails
 - **Squidbrake**: [#91](https://github.com/batrapulkit/squidbrake/pull/91) (merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
+- **LegalQuants lq-ai**: [#720](https://github.com/LegalQuants/lq-ai/pull/720) (merged): passage retrieval now matches on any playbook keyword
+- **doc-scraper (Sriram-PR)**: [#31](https://github.com/Sriram-PR/doc-scraper/pull/31) (merged): incremental `crawl_site` jobs now resume and skip unchanged pages
+- **GENesis-AGI (WingedGuardian)**: [#3307](https://github.com/WingedGuardian/GENesis-AGI/pull/3307) (merged): made the live approval-gate memory test able to fail, so it actually verifies the gate it covers
+- **sqlalchemy-cubrid (cubrid-lab)**: [#973](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/973), [#978](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/978) (merged): corrected the namespace of reflected timezone types, and added test coverage for escaped and reserved identifier quoting
+- **Gophenberg (gopherium)**: [#432](https://github.com/gopherium/gophenberg/pull/432) (merged): slugs now strip accents the way WordPress does
+- **sloptotal (pablocaeg)**: [#138](https://github.com/pablocaeg/sloptotal/pull/138), [#139](https://github.com/pablocaeg/sloptotal/pull/139) (merged): enabled ruff import sorting and the pyupgrade rules for Python 3.10, fixing everything they reported
+- **statewave-openrouter (smaramwbc)**: [#5](https://github.com/smaramwbc/statewave-openrouter/pull/5) (merged): a failed compile after a turn is now logged instead of silently dropped
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
