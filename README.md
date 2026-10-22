@@ -107,6 +107,7 @@ Adjacent to the toolkit: **[pkgverdict](https://github.com/CloudCorpRecords/pkgv
 - **[tracewatch](https://github.com/CloudCorpRecords/tracewatch)** (v0.1.0): tracks security scans over time, diffs findings, blames the commit that introduced each one, and watches repos with measured time-to-detect
 - **[mcpvet](https://github.com/CloudCorpRecords/mcpvet)** (v0.1.0): vets MCP servers and agent skills before you install them, auditing server and client configs, autostart entries, declared capabilities and bundled scripts for credential stealers, droppers and persistence shapes
 - **[depguard](https://github.com/CloudCorpRecords/depguard)** (v0.1.0): dependency early warning at PR time: diffs package.json and lockfiles and flags new dependencies, newly added install scripts and typosquat-shaped names before the change merges
+- **[flowcheck](https://github.com/CloudCorpRecords/flowcheck)** (v0.1.0): GitHub Actions least-privilege audit covering missing or write-all permissions, pull_request_target shapes, and secrets exposed to fork contexts
 
 Validated in the open: the wave closed Round 4 SOLID with zero problems open and a 223-check regression corpus passing on the published binaries. Live proof, updated by the tools themselves every 15 minutes: the [Live Danger Board](https://cloudcorprecords.github.io/security-wave/).
 
