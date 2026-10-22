@@ -97,6 +97,26 @@ Adjacent to the toolkit: **[pkgverdict](https://github.com/CloudCorpRecords/pkgv
 
 
 
+### [🛡️ Security Wave](https://github.com/CloudCorpRecords/hookcheck)
+
+**Local security checks for the repos an AI agent is about to trust.** Greenlight checks whether a contribution is allowed. The Security Wave checks the ground it lands on: the hooks that run automatically, the actions pinned to moving tags, and the instructions hidden in the text an agent reads. Born from the Shai-Hulud pattern, where an npm worm persisted through a SessionStart hook in .claude/settings.json and a folderOpen task in .vscode/tasks.json, and built as four small tools that each do one job deterministically, locally, with the evidence printed. 862 tests across the four tools, ship status per tool verified from the published binaries: hookcheck GO 10 of 10, actionpin GO 10 of 10, injectcheck GO 10 of 10, tracewatch GO 10 of 10.
+
+[**hookcheck**](https://github.com/CloudCorpRecords/hookcheck) · [**actionpin**](https://github.com/CloudCorpRecords/actionpin) · [**injectcheck**](https://github.com/CloudCorpRecords/injectcheck) · [**tracewatch**](https://github.com/CloudCorpRecords/tracewatch)
+
+**Run the first pass before your agent trusts a repo:** `npx @reneturcios/hookcheck scan .` then `npx @reneturcios/actionpin audit .` and `npx @reneturcios/injectcheck scan .` Each tool is a CLI and an MCP server in one binary, on npm under `@reneturcios/` and in the official MCP Registry, with GHCR container images the same way as Greenlight. First proof, from the acceptance fixtures: hookcheck returned COMPROMISED-PATTERN on a rebuilt Shai-Hulud persistence pattern, and injectcheck returned REVIEW (low severity only) on an honest security doc that only discusses injection in prose. Live proof, updated by the tools themselves every 15 minutes: the [Live Danger Board](https://cloudcorprecords.github.io/security-wave/).
+
+- **[hookcheck](https://github.com/CloudCorpRecords/hookcheck)**: every auto-exec hook in a repo inventoried and classified: package.json lifecycle scripts, .claude hooks, .vscode tasks, husky, pre-commit, and MCP autostart configs, with a COMPROMISED-PATTERN verdict when a risky hook fetches remote code or reaches for credential stores
+- **[actionpin](https://github.com/CloudCorpRecords/actionpin)**: every GitHub Action in your workflows checked for a full SHA pin, official and third-party refs separated, with a fix mode that rewrites a tag pin to the SHA and keeps the version as a comment
+- **[injectcheck](https://github.com/CloudCorpRecords/injectcheck)**: issues, PRs, READMEs, and docs scanned for prompt injection an agent would read: hidden unicode, instructions in HTML comments, exfiltration phrasing, and base64 blobs that decode to instructions, every finding with file, line, and rule
+- **[tracewatch](https://github.com/CloudCorpRecords/tracewatch)**: the observability layer over the other three: scan history with stable finding IDs, diffs between scans (new, resolved, pin regressions, action ref moves), blame to the introducing commit, watch mode with measured time to detect, and health reports
+
+Tranche 2, in build next: **mcpvet** (vet an MCP server or skill before install, the ClawHavoc check), **depguard** (dependency early warning at PR time), and **flowcheck** (workflow least privilege, with a hardened permissions plan per job). Planned indexes follow the Agent Policy Index pattern: a Hook Index, an MCP Vet Index, and an Action Pin Index.
+
+The honest scope, same as in the repos: these tools detect patterns and print evidence. They do not prove a repo is safe, and a clean verdict means no checked pattern matched, nothing more.
+
+`TypeScript` `MCP` `CLI` `GitHub Actions` `Supply Chain Security`
+
+
 ## 🤝 Join in
 
 Both flagship projects are MIT-licensed and open to contributors of every level, including first-timers.
