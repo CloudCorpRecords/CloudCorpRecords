@@ -132,7 +132,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Forge (git-pkgs)**: [#172](https://github.com/git-pkgs/forge/pull/172), [#180](https://github.com/git-pkgs/forge/pull/180), [#181](https://github.com/git-pkgs/forge/pull/181), [#179](https://github.com/git-pkgs/forge/pull/179) (all merged): release upload gained `--tag` parity and non-nil upload options, the Gitea and Forgejo `pr list` now applies the `--head` filter client-side, and a `pr checks` command with CI-aware exit codes
 - **Firecrawl**: [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
 - **Firecrawl**: [#5164](https://github.com/firecrawl/firecrawl/pull/5164) (in review): made the crawler's JS link-filter fallback enforce the same host scoping as the native filter, so crawls cannot silently wander off-site when the native filter fails
-- **Squidbrake**: [#91](https://github.com/batrapulkit/squidbrake/pull/91) (merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content
+- **Squidbrake**: [#91](https://github.com/batrapulkit/squidbrake/pull/91), [#131](https://github.com/batrapulkit/squidbrake/pull/131) (all merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content; hardened the shell guard to inspect what `make`, `npm run`, and `bash x.sh` execute underneath, with 26 tests
 - **LegalQuants lq-ai**: [#720](https://github.com/LegalQuants/lq-ai/pull/720) (merged): passage retrieval now matches on any playbook keyword
 - **doc-scraper (Sriram-PR)**: [#31](https://github.com/Sriram-PR/doc-scraper/pull/31) (merged): incremental `crawl_site` jobs now resume and skip unchanged pages
 - **GENesis-AGI (WingedGuardian)**: [#3307](https://github.com/WingedGuardian/GENesis-AGI/pull/3307) (merged): made the live approval-gate memory test able to fail, so it actually verifies the gate it covers
@@ -140,6 +140,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Gophenberg (gopherium)**: [#432](https://github.com/gopherium/gophenberg/pull/432) (merged): slugs now strip accents the way WordPress does
 - **sloptotal (pablocaeg)**: [#138](https://github.com/pablocaeg/sloptotal/pull/138), [#139](https://github.com/pablocaeg/sloptotal/pull/139) (merged): enabled ruff import sorting and the pyupgrade rules for Python 3.10, fixing everything they reported
 - **statewave-openrouter (smaramwbc)**: [#5](https://github.com/smaramwbc/statewave-openrouter/pull/5) (merged): a failed compile after a turn is now logged instead of silently dropped
+- **Composio**: [#4946](https://github.com/ComposioHQ/composio/pull/4946) (merged): the CLI `connections list` command now shows account id, alias, and display name
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
