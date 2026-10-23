@@ -11,7 +11,7 @@ Replit Ambassador since September 2025 (top 1% Replit user). I also teach this w
 
 - **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
 - **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
-- **107 open-source PRs authored, 42 merged** — every one vetted by my own tool first
+- **110 open-source PRs authored, 42 merged** — every one vetted by my own tool first
 - **Greenlight: 1,169 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,024 repos** (46 ban agent contributions outright)
 - **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
 
@@ -95,7 +95,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 107 PRs authored across open-source repos so far, 42 merged (Pull Shark Bronze), every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 110 PRs authored across open-source repos so far, 42 merged (Pull Shark Bronze), every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
