@@ -12,7 +12,7 @@ Replit Ambassador since September 2025 (top 1% Replit user). I also teach this w
 - **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
 - **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
 - **103 open-source PRs authored, 42 merged** — every one vetted by my own tool first
-- **Greenlight: 1,169 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **2,814 repos** (508 gated, 43 ban agent contributions outright)
+- **Greenlight: 1,169 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,024 repos** (46 ban agent contributions outright)
 - **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
 
 **Try the flagship in one command:** `npx @reneturcios/greenlight` — or `docker run --rm -i ghcr.io/cloudcorprecords/greenlight mcp`
@@ -85,7 +85,7 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index (2,814 repos mapped) decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,194 tests, CI green on Node 20 and 24.
+**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index (3,024 repos mapped) decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,194 tests, CI green on Node 20 and 24.
 
 [**Release v0.21.4**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.21.4)
 
