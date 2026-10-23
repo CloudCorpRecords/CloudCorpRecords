@@ -1,7 +1,25 @@
 # 👋 Hi, I'm Rene Turcios
 
 
-AI product builder and founder of **Clipwise** and **Xod**, based in San Francisco. Replit Ambassador since September 2025. I ship full-stack products solo with AI coding tools (React frontends, Python backends, MCP servers, agent pipelines), then teach other people to do the same: 200+ hackathons, hands-on workshops across the Bay Area, and mentoring non-technical founders.
+**Vibe coder. Agent-native dev.** SF AI product builder and founder of **Clipwise** and **Xod**. I take an idea from prompt to shipped, tested, published software — solo, fast, in whatever lane the problem is in: full-stack product, MCP servers and agents, dev tools, security tooling, local/Mac AI, fine-tuning, data indexes, interactive demos.
+
+Agent-native is my discipline, not a shortcut: agents build with me, but nothing carries my name until it is tested, verified against the real thing, and shipped. The proof is below — every number is checkable.
+
+Replit Ambassador since September 2025 (top 1% Replit user). I also teach this way of building: 200+ hackathons, hands-on workshops across the Bay Area, 48 events hosted, and mentoring for non-technical founders.
+
+## 📈 The proof (Oct 22, 2026)
+
+- **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
+- **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
+- **101 open-source PRs authored, 40 merged** — every one vetted by my own tool first
+- **Greenlight: 1,169 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **2,814 repos** (508 gated, 43 ban agent contributions outright)
+- **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
+
+**Try the flagship in one command:** `npx @reneturcios/greenlight` — or `docker run --rm -i ghcr.io/cloudcorprecords/greenlight mcp`
+
+**Hiring:** I'm open to Forward Deployed Engineer, Applied AI, DevRel, and Software Engineer (full-stack / product / dev tools) roles — US remote or San Francisco. My hireable flag is on. Reach me on [LinkedIn](https://www.linkedin.com/in/reneturcios) or follow the search live on my **[Job Search Tracker](https://cloudcorprecords.github.io/job-search-tracker/)**.
+
+**If you try something here:** [follow me on GitHub](https://github.com/CloudCorpRecords) for the next tool, and star [Greenlight](https://github.com/CloudCorpRecords/greenlight) if it saved you a weekend — stars are how this work gets found.
 
 
 ## Already ready
