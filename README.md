@@ -172,10 +172,11 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **doc-scraper (Sriram-PR)**: [#31](https://github.com/Sriram-PR/doc-scraper/pull/31) (merged): incremental `crawl_site` jobs now resume and skip unchanged pages
 - **GENesis-AGI (WingedGuardian)**: [#3307](https://github.com/WingedGuardian/GENesis-AGI/pull/3307) (merged): made the live approval-gate memory test able to fail, so it actually verifies the gate it covers
 - **sqlalchemy-cubrid (cubrid-lab)**: [#973](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/973), [#978](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/978), [#977](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/977), [#979](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/979), [#981](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/981) (all merged): corrected the namespace of reflected timezone types, test coverage for escaped and reserved identifier quoting, the reflection probe engine now disposes on every exit path, preflight sync engine disposal pinned on success and errors, and the reflection_probe report shape pinned with a fake inspector
-- **Gophenberg (gopherium)**: [#432](https://github.com/gopherium/gophenberg/pull/432) (merged): slugs now strip accents the way WordPress does
+- **Gophenberg (gopherium)**: [#432](https://github.com/gopherium/gophenberg/pull/432), [#521](https://github.com/gopherium/gophenberg/pull/521) (all merged): slugs now strip accents the way WordPress does; named the label or item blocking a root hand-over
 - **sloptotal (pablocaeg)**: [#138](https://github.com/pablocaeg/sloptotal/pull/138), [#139](https://github.com/pablocaeg/sloptotal/pull/139) (merged): enabled ruff import sorting and the pyupgrade rules for Python 3.10, fixing everything they reported
 - **statewave-openrouter (smaramwbc)**: [#5](https://github.com/smaramwbc/statewave-openrouter/pull/5) (merged): a failed compile after a turn is now logged instead of silently dropped
 - **Composio**: [#4946](https://github.com/ComposioHQ/composio/pull/4946) (merged): the CLI `connections list` command now shows account id, alias, and display name
+- **razer-ctl (sqmagellan)**: [#11](https://github.com/sqmagellan/razer-ctl/pull/11) (merged): added the Razer Blade 17 (2022), PID 0x028b, USB device descriptor
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
