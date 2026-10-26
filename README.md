@@ -7,12 +7,12 @@ Agent-native is my discipline, not a shortcut: agents build with me, but nothing
 
 Replit Ambassador since September 2025 (top 1% Replit user). I also teach this way of building: 200+ hackathons, hands-on workshops across the Bay Area, 48 events hosted, and mentoring for non-technical founders.
 
-## 📈 The proof (Oct 22, 2026)
+## 📈 The proof (Oct 25, 2026)
 
 - **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
 - **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
-- **110 open-source PRs authored, 42 merged** — every one vetted by my own tool first
-- **Greenlight: 1,169 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,024 repos** (46 ban agent contributions outright)
+- **139 open-source PRs authored, 61 merged** — every one vetted by my own tool first
+- **Greenlight: 1,194 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,383 repos** (48 ban agent contributions outright)
 - **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
 
 **Try the flagship in one command:** `npx @reneturcios/greenlight` — or `docker run --rm -i ghcr.io/cloudcorprecords/greenlight mcp`
@@ -85,17 +85,17 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index (3,024 repos mapped) decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,194 tests, CI green on Node 20 and 24.
+**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index (3,383 repos mapped) decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,194 tests, CI green on Node 20 and 24.
 
-[**Release v0.21.4**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.21.4)
+[**Release v0.22.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.22.0)
 
-**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.21.4 mcp`. The toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck, gatefile, shipcheck, cidiff and reprocheck.
+**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.22.0 mcp`. The toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck, gatefile, shipcheck, cidiff and reprocheck.
 
 It also runs the pipeline after the verdict: claim comments with repo conventions baked in, CI pre-flight that runs a repo's checks locally before you push, CI failure triage (yours vs pre-existing), review-response triage (real findings vs bot noise, drafts only), a maintainer guard Action with opt-in Autopilot labels, repo digests that arbitrate duplicate-PR races, a PR babysitter that watches your open PRs, honest base-vs-head test verification, and evidence packs that cite every claim they make.
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 110 PRs authored across open-source repos so far, 42 merged (Pull Shark Bronze), every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 139 PRs authored across open-source repos so far, 61 merged (Pull Shark Bronze), every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -164,7 +164,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Reticle**: [#1634](https://github.com/reticlehq/reticle/pull/1634), [#1636](https://github.com/reticlehq/reticle/pull/1636), [#1726](https://github.com/reticlehq/reticle/pull/1726) (merged): a pre-writable selector in the split-text hint, a failed browser launch naming the exact Chromium path it checked, and design tokens declared inside `@layer` blocks are now found
 - **Reticle**: [#1620](https://github.com/reticlehq/reticle/pull/1620) (in review): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
 - **Reticle**: [#1633](https://github.com/reticlehq/reticle/pull/1633), [#1635](https://github.com/reticlehq/reticle/pull/1635) (in review): upload through hidden dropzone inputs, and geometry assertions (fully in viewport, overlap, clipped text) for element predicates
-- **Forge (git-pkgs)**: [#172](https://github.com/git-pkgs/forge/pull/172), [#180](https://github.com/git-pkgs/forge/pull/180), [#181](https://github.com/git-pkgs/forge/pull/181), [#179](https://github.com/git-pkgs/forge/pull/179) (all merged): release upload gained `--tag` parity and non-nil upload options, the Gitea and Forgejo `pr list` now applies the `--head` filter client-side, and a `pr checks` command with CI-aware exit codes
+- **Forge (git-pkgs)**: [#172](https://github.com/git-pkgs/forge/pull/172), [#180](https://github.com/git-pkgs/forge/pull/180), [#181](https://github.com/git-pkgs/forge/pull/181), [#179](https://github.com/git-pkgs/forge/pull/179), [#190](https://github.com/git-pkgs/forge/pull/190) (all merged): release upload gained `--tag` parity and non-nil upload options, the Gitea and Forgejo `pr list` now applies the `--head` filter client-side, a `pr checks` command with CI-aware exit codes, and draft releases can be targeted by release ID on GitHub
 - **Firecrawl**: [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
 - **Firecrawl**: [#5164](https://github.com/firecrawl/firecrawl/pull/5164) (in review): made the crawler's JS link-filter fallback enforce the same host scoping as the native filter, so crawls cannot silently wander off-site when the native filter fails
 - **Squidbrake**: [#91](https://github.com/batrapulkit/squidbrake/pull/91), [#131](https://github.com/batrapulkit/squidbrake/pull/131) (all merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content; hardened the shell guard to inspect what `make`, `npm run`, and `bash x.sh` execute underneath, with 26 tests
