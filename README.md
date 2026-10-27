@@ -11,7 +11,7 @@ Replit Ambassador since September 2025 (top 1% Replit user). I also teach this w
 
 - **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
 - **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
-- **139 open-source PRs authored, 61 merged** — every one vetted by my own tool first
+- **141 open-source PRs authored, 63 merged** — every one vetted by my own tool first
 - **Greenlight: 1,194 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,383 repos** (48 ban agent contributions outright)
 - **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
 
@@ -95,7 +95,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 139 PRs authored across open-source repos so far, 61 merged (Pull Shark Bronze), every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 141 PRs authored across open-source repos so far, 63 merged (Pull Shark Bronze), every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -162,7 +162,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Sage**: [#302](https://github.com/ZHangZHengEric/Sage/pull/302) (merged): extended the docs link checker to cover the knowledge hub, with regression tests; the maintainer independently re-verified it
 - **pdfcn (shadcn-labs)**: six registry blocks and components in review, each claimed, built and review-fixed the same day: [Business Letter](https://github.com/shadcn-labs/pdfcn/pull/92), [Resume](https://github.com/shadcn-labs/pdfcn/pull/93), [Cover Letter](https://github.com/shadcn-labs/pdfcn/pull/94), [Project Proposal](https://github.com/shadcn-labs/pdfcn/pull/95), [Quarterly Report](https://github.com/shadcn-labs/pdfcn/pull/96), [Addresses](https://github.com/shadcn-labs/pdfcn/pull/97)
 - **Reticle**: [#1634](https://github.com/reticlehq/reticle/pull/1634), [#1636](https://github.com/reticlehq/reticle/pull/1636), [#1726](https://github.com/reticlehq/reticle/pull/1726) (merged): a pre-writable selector in the split-text hint, a failed browser launch naming the exact Chromium path it checked, and design tokens declared inside `@layer` blocks are now found
-- **Reticle**: [#1620](https://github.com/reticlehq/reticle/pull/1620) (in review): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
+- **Reticle**: [#1620](https://github.com/reticlehq/reticle/pull/1620) (merged): fixed the destructive-action guard judging selectable items by their whole text, with red-first regression tests and a changelog entry per the repo's house rules
 - **Reticle**: [#1633](https://github.com/reticlehq/reticle/pull/1633), [#1635](https://github.com/reticlehq/reticle/pull/1635) (in review): upload through hidden dropzone inputs, and geometry assertions (fully in viewport, overlap, clipped text) for element predicates
 - **Forge (git-pkgs)**: [#172](https://github.com/git-pkgs/forge/pull/172), [#180](https://github.com/git-pkgs/forge/pull/180), [#181](https://github.com/git-pkgs/forge/pull/181), [#179](https://github.com/git-pkgs/forge/pull/179), [#190](https://github.com/git-pkgs/forge/pull/190) (all merged): release upload gained `--tag` parity and non-nil upload options, the Gitea and Forgejo `pr list` now applies the `--head` filter client-side, a `pr checks` command with CI-aware exit codes, and draft releases can be targeted by release ID on GitHub
 - **Firecrawl**: [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
