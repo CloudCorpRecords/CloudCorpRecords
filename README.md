@@ -1,19 +1,19 @@
 # 👋 Hi, I'm Rene Turcios
 
 
-**Vibe coder. Agent-native dev.** SF AI product builder and founder of **Clipwise** and **Xod**. I take an idea from prompt to shipped, tested, published software — solo, fast, in whatever lane the problem is in: full-stack product, MCP servers and agents, dev tools, security tooling, local/Mac AI, fine-tuning, data indexes, interactive demos.
+**Vibe coder. Agent-native dev.** SF AI product builder and founder of **Xod**, **Clipwise**, and **[Internet of Things](https://github.com/CloudCorpRecords/internet-of-things)**: 1,000 open source tools, rebuilt from scratch as one verifiable tool layer for agents. I take an idea from prompt to shipped, tested, published software — solo, fast, in whatever lane the problem is in: full-stack product, MCP servers and agents, dev tools, security tooling, local/Mac AI, fine-tuning, data indexes, interactive demos.
 
 Agent-native is my discipline, not a shortcut: agents build with me, but nothing carries my name until it is tested, verified against the real thing, and shipped. The proof is below — every number is checkable.
 
 Replit Ambassador since September 2025 (top 1% Replit user). I also teach this way of building: 200+ hackathons, hands-on workshops across the Bay Area, 48 events hosted, and mentoring for non-technical founders.
 
-## 📈 The proof (Oct 25, 2026)
+## 📈 The proof (Nov 12, 2026)
 
-- **16 published container packages** on GitHub Packages — **1,274+ pulls**, led by [Greenlight](https://github.com/CloudCorpRecords/greenlight) (415)
-- **4,914 npm downloads in one week** (Oct 12–18) across the `@reneturcios/` tool family
-- **189 open-source PRs authored, 52 merged** — every one vetted by my own tool first
-- **Greenlight: 1,194 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) of **3,383 repos** (48 ban agent contributions outright)
-- **215 repos** on this profile: products, tools, indexes, and prototypes I built to prove a point before an interview ever asked
+- **192 open-source PRs authored into other people's projects, 59 merged, 103 open** — every one vetted by my own tool first, every number checkable from [my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
+- **Internet of Things: 1,003 tools built and parity-validated, 51 published and verified live** on GitHub, npm, GHCR and the MCP Registry (scoreboard as of Nov 1, 2026 — built and published are separate numbers on purpose, and the published count moves only on verified read-back)
+- **689 public repos** on this profile: the tool fleet, products, indexes, and prototypes I built to prove a point before an interview ever asked
+- **Greenlight: 1,268 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) mapping how repos gate or ban agent contributions
+- **Xod v1.1.3** shipped and verified; **Greenlight v0.26.0** is the current release
 
 **Try the flagship in one command:** `npx @reneturcios/greenlight` — or `docker run --rm -i ghcr.io/cloudcorprecords/greenlight mcp`
 
@@ -62,7 +62,7 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 <a href="https://github.com/CloudCorpRecords/xod"><img src="https://github.com/CloudCorpRecords/xod/raw/main/docs/media/moon.gif" width="160" alt="Xod's moon companion"></a>
 
-[**Download for Mac**](https://github.com/CloudCorpRecords/xod/releases/latest) · [Contribute](https://github.com/CloudCorpRecords/xod/blob/main/.github/CONTRIBUTING.md) · [Discussions](https://github.com/CloudCorpRecords/xod/discussions) · [Roadmap](https://github.com/CloudCorpRecords/xod/blob/main/docs/ROADMAP.md)
+[**Download for Mac**](https://github.com/CloudCorpRecords/xod/releases/latest) (current release: [v1.1.3](https://github.com/CloudCorpRecords/xod/releases/tag/v1.1.3)) · [Contribute](https://github.com/CloudCorpRecords/xod/blob/main/.github/CONTRIBUTING.md) · [Discussions](https://github.com/CloudCorpRecords/xod/discussions) · [Roadmap](https://github.com/CloudCorpRecords/xod/blob/main/docs/ROADMAP.md)
 
 `Python` `Electron` `MCP` `MLX` `Ollama`
 
@@ -83,19 +83,25 @@ I track every application and every open-source PR in public. The **[Job Search 
 </tr>
 </table>
 
+### [🌐 Internet of Things](https://github.com/CloudCorpRecords/internet-of-things)
+
+**1,000 open tools, one builder, all verifiable.** Agents do their work through tools written by other people, and every tool is a door. I rebuilt that layer from scratch: one source of truth, one standard, everything open source, and every release verified against public surfaces I do not control (GitHub, npm, GHCR, the MCP Registry) before it counts. 1,003 tools built and parity-validated; 51 published and verified live as of the Nov 1, 2026 [public scoreboard](https://github.com/CloudCorpRecords/internet-of-things/blob/main/scoreboard.md), with the publish train still running. The claim is never trust me. The claim is verify it yourself: start with the [verification one-pager](https://github.com/CloudCorpRecords/internet-of-things/blob/main/verification-one-pager.md).
+
+`MCP` `TypeScript` `Python` `npm` `GHCR` `Supply Chain Security`
+
 ### [🟢 Greenlight](https://github.com/CloudCorpRecords/greenlight)
 
-**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index (3,383 repos mapped) decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,194 tests, CI green on Node 20 and 24.
+**The pre-flight and coordination layer for open-source contribution.** It answers the questions no other tool answers: is this issue secretly taken, does this repo's policy allow your PR, who else is racing you. Timeline X-Ray deep-verifies issues against their timelines; friction scores and an Agent Policy Index decode each repo's gates; PR Radar clusters duplicate and competing PRs across a repo's whole queue; PR Brief writes an evidence-verified review brief for any PR. Racecheck searches open PRs by problem words, so a competing PR does not stay hidden just because it never linked the issue. Ships as a CLI and an MCP server with 33 tools, born from vetting real issues by hand, then automated end to end. 1,268 tests, CI green on Node 20 and 24.
 
-[**Release v0.22.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.22.0)
+[**Release v0.26.0**](https://github.com/CloudCorpRecords/greenlight/releases/tag/v0.26.0)
 
-**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.22.0 mcp`. The toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck, gatefile, shipcheck, cidiff and reprocheck.
+**Set up your agent in one command:** `npx @reneturcios/greenlight init --agent claude-code` (also Cursor, Copilot, Windsurf, Cline). Prefer containers? All five tools ship as images: `docker run --rm -i ghcr.io/cloudcorprecords/greenlight:0.26.0 mcp`. The toolkit packages are on npm under `@reneturcios/` and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io) as io.github.CloudCorpRecords/greenlight, prwatch, claimcheck, gatefile, shipcheck, cidiff and reprocheck.
 
 It also runs the pipeline after the verdict: claim comments with repo conventions baked in, CI pre-flight that runs a repo's checks locally before you push, CI failure triage (yours vs pre-existing), review-response triage (real findings vs bot noise, drafts only), a maintainer guard Action with opt-in Autopilot labels, repo digests that arbitrate duplicate-PR races, a PR babysitter that watches your open PRs, honest base-vs-head test verification, and evidence packs that cite every claim they make.
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 189 PRs authored across open-source repos so far, 52 merged (Pull Shark Bronze), every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 192 PRs authored into other people's projects so far, 59 merged, every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
