@@ -9,7 +9,7 @@ Replit Ambassador since September 2025 (top 1% Replit user). I also teach this w
 
 ## 📈 The proof (Nov 12, 2026)
 
-- **192 open-source PRs authored into other people's projects, 59 merged, 103 open** — every one vetted by my own tool first, every number checkable from [my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
+- **193 open-source PRs authored into other people's projects, 61 merged, 101 open** — every one vetted by my own tool first, every number checkable from [my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 - **Internet of Things: 1,003 tools built and parity-validated, 51 published and verified live** on GitHub, npm, GHCR and the MCP Registry (scoreboard as of Nov 1, 2026 — built and published are separate numbers on purpose, and the published count moves only on verified read-back)
 - **689 public repos** on this profile: the tool fleet, products, indexes, and prototypes I built to prove a point before an interview ever asked
 - **Greenlight: 1,268 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) mapping how repos gate or ban agent contributions
@@ -101,7 +101,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 192 PRs authored into other people's projects so far, 59 merged, every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 193 PRs authored into other people's projects so far, 61 merged, every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -174,10 +174,12 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Firecrawl**: [#5141](https://github.com/firecrawl/firecrawl/pull/5141) (in review): fixed the map and extract search builders corrupting URLs by stripping `www.` from anywhere in the string instead of only the hostname, with a shared helper and unit tests for the corrupted cases
 - **Firecrawl**: [#5164](https://github.com/firecrawl/firecrawl/pull/5164) (in review): made the crawler's JS link-filter fallback enforce the same host scoping as the native filter, so crawls cannot silently wander off-site when the native filter fails
 - **Squidbrake**: [#91](https://github.com/batrapulkit/squidbrake/pull/91), [#131](https://github.com/batrapulkit/squidbrake/pull/131) (all merged): added a taint signal so approvers see when an agent edits its own setup right after reading outside content; hardened the shell guard to inspect what `make`, `npm run`, and `bash x.sh` execute underneath, with 26 tests
-- **LegalQuants lq-ai**: [#720](https://github.com/LegalQuants/lq-ai/pull/720) (merged): passage retrieval now matches on any playbook keyword
+- **LegalQuants lq-ai**: [#720](https://github.com/LegalQuants/lq-ai/pull/720), [#785](https://github.com/LegalQuants/lq-ai/pull/785) (all merged): passage retrieval now matches on any playbook keyword; the pyodide fetch is now deterministic and keeps the committed lock intact
 - **doc-scraper (Sriram-PR)**: [#31](https://github.com/Sriram-PR/doc-scraper/pull/31), [#53](https://github.com/Sriram-PR/doc-scraper/pull/53) (all merged): incremental `crawl_site` jobs now resume and skip unchanged pages; search results dedupe to one chunk per page
 - **GENesis-AGI (WingedGuardian)**: [#3307](https://github.com/WingedGuardian/GENesis-AGI/pull/3307), [#3931](https://github.com/WingedGuardian/GENesis-AGI/pull/3931) (all merged): made the live approval-gate memory test able to fail, so it actually verifies the gate it covers; a preferences set now round-trips every unmentioned field in the outreach tests
 - **sqlalchemy-cubrid (cubrid-lab)**: [#973](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/973), [#978](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/978), [#977](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/977), [#979](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/979), [#981](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/981), [#1113](https://github.com/cubrid-lab/sqlalchemy-cubrid/pull/1113) (all merged): corrected the namespace of reflected timezone types, test coverage for escaped and reserved identifier quoting, the reflection probe engine now disposes on every exit path, preflight sync engine disposal pinned on success and errors, the reflection_probe report shape pinned with a fake inspector, and the build now requires setuptools 77 or newer for the SPDX license string
+- **cubrid-cookbook-python (cubrid-lab)**: [#565](https://github.com/cubrid-lab/cubrid-cookbook-python/pull/565) (merged): the fundamentals setup commands now work from the repository root
+- **pycubrid (cubrid-lab)**: [#1208](https://github.com/cubrid-lab/pycubrid/pull/1208) (merged): documented the runnable example scripts and their cleanup
 - **Gophenberg (gopherium)**: [#432](https://github.com/gopherium/gophenberg/pull/432), [#521](https://github.com/gopherium/gophenberg/pull/521), [#645](https://github.com/gopherium/gophenberg/pull/645) (all merged): slugs now strip accents the way WordPress does; named the label or item blocking a root hand-over; exported types are compared by key in the resume test
 - **sloptotal (pablocaeg)**: [#138](https://github.com/pablocaeg/sloptotal/pull/138), [#139](https://github.com/pablocaeg/sloptotal/pull/139) (merged): enabled ruff import sorting and the pyupgrade rules for Python 3.10, fixing everything they reported
 - **statewave-openrouter (smaramwbc)**: [#5](https://github.com/smaramwbc/statewave-openrouter/pull/5) (merged): a failed compile after a turn is now logged instead of silently dropped
@@ -195,6 +197,12 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Soundcraft (storytold)**: [#1026](https://github.com/storytold/soundcraft/pull/1026) (merged): deleting a track keeps a folder's input bus when surviving tracks route through it
 - **Obsidian Outliner (vslinko)**: [#616](https://github.com/vslinko/obsidian-outliner/pull/616) (merged): fixed the last bullet point left over when closing a list
 - **CUGA (cuga-project)**: [#965](https://github.com/cuga-project/cuga-agent/pull/965) (merged): the unit suite runs without an OpenAI key or the evolve extra
+- **kotlinx.serialization (Kotlin)**: [#3312](https://github.com/Kotlin/kotlinx.serialization/pull/3312) (merged): CBOR now throws on truncated unknown byte and text strings skipped with ignoreUnknownKeys
+- **Nextcloud Calendar**: [#9165](https://github.com/nextcloud/calendar/pull/9165) (merged): Talk attendees are now resolved by email instead of display name
+- **icloud-docker (mandarons)**: [#588](https://github.com/mandarons/icloud-docker/pull/588) (merged): CloudKit listing requests are now bounded with the default request timeout
+- **Autonomous Vehicle Control Beginners Guide (ShisatoYano)**: [#150](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide/pull/150) (merged): documented the L-shape fitting math, added the Zhang et al. reference, and fixed a typo
+- **Argent (software-mansion)**: [#1749](https://github.com/software-mansion/argent/pull/1749) (merged): the installer now installs project-scope skills at the resolved project root
+- **Wallabag**: [#9095](https://github.com/wallabag/wallabag/pull/9095) (merged): the API docs now document the PATCH entries parameters as a request body
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
