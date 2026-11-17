@@ -9,9 +9,9 @@ Replit Ambassador since September 2025 (top 1% Replit user). I also teach this w
 
 ## 📈 The proof (Nov 16, 2026)
 
-- **193 open-source PRs authored into other people's projects, 63 merged, 99 open** — every one vetted by my own tool first, every number checkable from [my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
-- **Internet of Things: 1,003 tools built and parity-validated, 51 published and verified live** on GitHub, npm, GHCR and the MCP Registry (scoreboard as of Nov 1, 2026 — built and published are separate numbers on purpose, and the published count moves only on verified read-back)
-- **689 public repos** on this profile: the tool fleet, products, indexes, and prototypes I built to prove a point before an interview ever asked
+- **193 open-source PRs authored into other people's projects, 64 merged, 98 open** — every one vetted by my own tool first, every number checkable from [my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
+- **Internet of Things: 1,013 tools built and parity-validated, 482 published and verified live** on GitHub, npm, GHCR and the MCP Registry (scoreboard as of Nov 16, 2026 — built and published are separate numbers on purpose, and the published count moves only on verified read-back)
+- **779 public repos** on this profile: the tool fleet, products, indexes, and prototypes I built to prove a point before an interview ever asked
 - **Greenlight: 1,268 tests, 33 MCP tools**, plus an [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html) mapping how repos gate or ban agent contributions
 - **Xod v1.1.6** shipped and verified; **Greenlight v0.26.0** is the current release
 
@@ -62,7 +62,7 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 <a href="https://github.com/CloudCorpRecords/xod"><img src="https://github.com/CloudCorpRecords/xod/raw/main/docs/media/moon.gif" width="160" alt="Xod's moon companion"></a>
 
-[**Download for Mac**](https://github.com/CloudCorpRecords/xod/releases/latest) (current release: [v1.1.3](https://github.com/CloudCorpRecords/xod/releases/tag/v1.1.3)) · [Contribute](https://github.com/CloudCorpRecords/xod/blob/main/.github/CONTRIBUTING.md) · [Discussions](https://github.com/CloudCorpRecords/xod/discussions) · [Roadmap](https://github.com/CloudCorpRecords/xod/blob/main/docs/ROADMAP.md)
+[**Download for Mac**](https://github.com/CloudCorpRecords/xod/releases/latest) (current release: [v1.1.6](https://github.com/CloudCorpRecords/xod/releases/tag/v1.1.6)) · [Contribute](https://github.com/CloudCorpRecords/xod/blob/main/.github/CONTRIBUTING.md) · [Discussions](https://github.com/CloudCorpRecords/xod/discussions) · [Roadmap](https://github.com/CloudCorpRecords/xod/blob/main/docs/ROADMAP.md)
 
 `Python` `Electron` `MCP` `MLX` `Ollama`
 
@@ -85,7 +85,7 @@ I track every application and every open-source PR in public. The **[Job Search 
 
 ### [🌐 Internet of Things](https://github.com/CloudCorpRecords/internet-of-things)
 
-**1,000 open tools, one builder, all verifiable.** Agents do their work through tools written by other people, and every tool is a door. I rebuilt that layer from scratch: one source of truth, one standard, everything open source, and every release verified against public surfaces I do not control (GitHub, npm, GHCR, the MCP Registry) before it counts. 1,003 tools built and parity-validated; 51 published and verified live as of the Nov 1, 2026 [public scoreboard](https://github.com/CloudCorpRecords/internet-of-things/blob/main/scoreboard.md), with the publish train still running. The claim is never trust me. The claim is verify it yourself: start with the [verification one-pager](https://github.com/CloudCorpRecords/internet-of-things/blob/main/verification-one-pager.md).
+**1,000 open tools, one builder, all verifiable.** Agents do their work through tools written by other people, and every tool is a door. I rebuilt that layer from scratch: one source of truth, one standard, everything open source, and every release verified against public surfaces I do not control (GitHub, npm, GHCR, the MCP Registry) before it counts. 1,013 tools built and parity-validated; 482 published and verified live as of the Nov 16, 2026 [public scoreboard](https://github.com/CloudCorpRecords/internet-of-things/blob/main/scoreboard.md), with the publish train still running. The claim is never trust me. The claim is verify it yourself: start with the [verification one-pager](https://github.com/CloudCorpRecords/internet-of-things/blob/main/verification-one-pager.md).
 
 `MCP` `TypeScript` `Python` `npm` `GHCR` `Supply Chain Security`
 
@@ -101,7 +101,7 @@ It also runs the pipeline after the verdict: claim comments with repo convention
 
 Newest: **PR Radar**, which clusters a repo's open PRs into duplicate and competing sets with a labeled keep heuristic (its first live run found two PRs closing the same issue that nobody had connected), and **PR Brief**, a one-screen verified brief for any PR: change shape, CI base-vs-head, findings classified against evidence. Plus the **Claim Protocol**, an open spec for claiming issues with expiring leases and a public queue, with a live [Claim Ledger](https://cloudcorprecords.github.io/claim-ledger/) and a [hosted pre-flight API](https://claim-api-wine.vercel.app). And optional **AI claim detection**: with a Fireworks key set, a cheap model reads the comments the patterns cannot parse and flags hidden claims with the quote as evidence (it can only ever make a verdict more careful, never more confident). Field data lives on the [Contribution Friction Index](https://cloudcorprecords.github.io/greenlight/) and the [Agent Policy Index](https://cloudcorprecords.github.io/greenlight/policy.html).
 
-Greenlight runs my own contribution campaign: 193 PRs authored into other people's projects so far, 63 merged, every one of them vetted by the tool first.
+Greenlight runs my own contribution campaign: 193 PRs authored into other people's projects so far, 64 merged, every one of them vetted by the tool first.
 
 `TypeScript` `MCP` `CLI` `GitHub API`
 
@@ -205,6 +205,7 @@ Both flagship projects are MIT-licensed and open to contributors of every level,
 - **Wallabag**: [#9095](https://github.com/wallabag/wallabag/pull/9095) (merged): the API docs now document the PATCH entries parameters as a request body
 - **Zeus (ZeusLN)**: [#5607](https://github.com/ZeusLN/zeus/pull/5607) (merged): the LNURL channel view now enables Connect when the peer is already connected
 - **OpenAge (SFTtech)**: [#1831](https://github.com/SFTtech/openage/pull/1831) (merged): fixed `OrderedSet.intersection_update` for OrderedSet and dict arguments
+- **Amazon EKS AMI (awslabs)**: [#2880](https://github.com/awslabs/amazon-eks-ami/pull/2880) (merged): nodeadm's setup-local-disks now formats the RAID arrays it created
 - Plus more in review across Go, Python and TypeScript projects: [all my pull requests](https://github.com/pulls?q=is%3Apr+author%3ACloudCorpRecords)
 
 ## What I do
